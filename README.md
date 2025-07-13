@@ -54,10 +54,10 @@ is a lightweight and powerful open-source PHP framework designed for building dy
 
 ---
 
-## 🖥️ Installation Instructions
+##  Installation Instructions
 
-> ⚠️ This system is built for **PHP 5.6 or 7+**  
-> ⚠️ Recommended environment: **WAMP Server** (preferably `wamp64`) where you can switch PHP versions
+>  This system is built for **PHP 5.6 or 7+**  
+>  Recommended environment: **WAMP Server** (preferably `wamp64`) where you can switch PHP versions
 
 ### Steps:
 1. Install wamp server 64 into your system ensure you have php 5.6 among your php versions of not you can download the addon from wampserver website https://wampserver.aviatechno.net/ under addons below the page choose php 5.6 and install it in your computer 
