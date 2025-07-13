@@ -1,10 +1,10 @@
-# 🚗 Car Inventory System
+#  Car Inventory System
 
 A web-based inventory and sales tracking system built with **CodeIgniter**. This system allows for efficient management of car stock, tracking incoming and sold cars, managing employees, and recording business expenses — all through a modern, real-time web interface.
 
 ---
 
-## 🧰 Built With
+## Tools it was built With
 
 - **CodeIgniter** (PHP framework)
 - **PHP 5.6 / 7+** (for backend functionality)
@@ -15,13 +15,12 @@ A web-based inventory and sales tracking system built with **CodeIgniter**. This
 
 ---
 
-## 🧠 What is CodeIgniter?
-
-[CodeIgniter](https://codeigniter.com/) is a lightweight and powerful open-source PHP framework designed for building dynamic web applications. It offers a small footprint and exceptional performance, making it ideal for fast, secure, and scalable web projects.
+##  What is CodeIgniter?
+is a lightweight and powerful open-source PHP framework designed for building dynamic web applications. It offers a small footprint and exceptional performance, making it ideal for fast, secure, and scalable web projects.
 
 ---
 
-## 📦 Features
+##  Features of the system
 
 ### 🚙 Car Inventory Management
 - Track cars **added to inventory**
@@ -50,6 +49,9 @@ A web-based inventory and sales tracking system built with **CodeIgniter**. This
 - Categorize expenses using **custom categories**
 - View expense reports and summaries
 
+  All the above files are in views folders to html changes you can go those folders and look for each file you would wish to change.
+  The controllers are in application folder 
+
 ---
 
 ## 🖥️ Installation Instructions
@@ -58,54 +60,41 @@ A web-based inventory and sales tracking system built with **CodeIgniter**. This
 > ⚠️ Recommended environment: **WAMP Server** (preferably `wamp64`) where you can switch PHP versions
 
 ### Steps:
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/car-inventory-system.git
-Place the project folder in your wamp64/www/ directory.
+1. Install wamp server 64 into your system ensure you have php 5.6 among your php versions of not you can download the addon from wampserver website https://wampserver.aviatechno.net/ under addons below the page choose php 5.6 and install it in your computer 
 
 Start WAMP Server and select your PHP version (5.6 or 7+).
 
-Create a new MySQL database (e.g., car_inventory).
+# Create a new MySQL database (e.g., cars).
+The database sql file is in the folder called database_sql_file called cars.sql import it in your php my admin
 
-Import the SQL database as explained below.
+# Import the SQL database as explained below.
 
 Configure your database credentials in:
 
-arduino
-Copy
-Edit
-application/config/database.php
+Go to application/config/database.php
 Open your browser and go to:
 
-perl
-Copy
-Edit
+
 http://localhost/car-inventory-system/
-SQL Database Import Instructions
-The database sql file is in the folder called database import it in your php my admin
+
+### SQL Database Import Instructions
 To import the required database into phpMyAdmin:
 
 Start your WAMP server and make sure MySQL is running.
 
 Open your browser and go to:
 
-arduino
-Copy
-Edit
 http://localhost/phpmyadmin/
 Log in (default username is root, password is usually blank).
 
 Click New, and create a database named:
 
-nginx
-Copy
-Edit
-car_inventory
+cars
 Click the newly created database.
 
 Click Import from the top menu.
 
-Choose the provided .sql file (e.g., car_inventory.sql) from the project folder.
+Choose the provided .sql file i.e cars.sql from the database_sql_file folder.
 
 Click Go to start the import.
 
