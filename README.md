@@ -22,29 +22,29 @@ is a lightweight and powerful open-source PHP framework designed for building dy
 
 ##  Features of the system
 
-### 🚙 Car Inventory Management
+###  Car Inventory Management
 - Track cars **added to inventory**
 - Record **sold cars**
 - View **current stock in real time**
 - Organized inventory dashboard
 
-### 💰 Sales and Transactions
+###  Sales and Transactions
 - Dedicated **sales page** for processing transactions
 - Sales data reflected in real time
 - Easy transaction logging and tracking
 
-### 📊 Reports
+### Reports
 - Generate reports for:
   - **Inventory**
   - **Sales**
   - **Expenses**
 
-### 🧑 Employee Management
+###  Employee Management
 - Register and manage **employees**
 - Employees handle transactions and deals
 - Track employee involvement in sales
 
-### 💸 Expense Management
+###  Expense Management
 - Log business **expenses**
 - Categorize expenses using **custom categories**
 - View expense reports and summaries
@@ -114,5 +114,5 @@ Web browser (Chrome, Firefox, etc.)
 The system uses AJAX to update inventory and transaction data in real time — eliminating the need for page refreshes and improving the user experience.
 
 
-🤝 Acknowledgments
+ Acknowledgments
 Developed as part of a group project (Group 28) for demonstration and educational use.
